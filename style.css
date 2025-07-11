@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: Roboto;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+.top-container {
+    background-color: #1f2937;
+    margin: 0;
+}
+.advert-title {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+.advert-text, .link {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+.advert-signup {
+    background-color: #3882F6;
+    border-color: #1F2937;
+    color: #F9FAF8;
+    border-radius: 7px;
+    border-style: none;
+}
+.info-title {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+.quote {
+    background-color: #E5E7EB;
+}
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+.quote-author {
+    text-align: right;
+    font-weight: bold;
+}
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    text-align: center;
+}
+.banner {
+    background-color: #3882F6;
+}
+.banner-signup {
+    background-color: #3882F6;
+    border-color: #F9FAF8;
+    color: #F9FAF8;
+    border-radius: 7px;
+    border-style: solid;
+}
+.banner-title {
+    font-weight: bold;
+    color: #F9FAF8;
+}
+.banner-text {
+    color: #F9FAF8;
+    font-size: 15px;
+}
