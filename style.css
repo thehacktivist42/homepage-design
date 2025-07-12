@@ -14,6 +14,9 @@ body {
 .top-container {
     background-color: #1f2937;
     margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 300px;
 }
 .advert-title {
     font-size: 48px;
@@ -23,6 +26,7 @@ body {
 .advert-text, .link {
     font-size: 18px;
     color: #E5E7EB;
+    max-width: 650px;
 }
 .header-logo {
     font-size: 24px;
@@ -34,11 +38,16 @@ body {
     color: #F9FAF8;
     border-radius: 7px;
     border-style: none;
+    margin: 16px 0;
+    padding: 8px 16px;
 }
 .info-title {
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
+    text-align: center;
+    margin-bottom: 16px;
+    margin-top: 16px;
 }
 .quote {
     background-color: #E5E7EB;
@@ -74,4 +83,81 @@ body {
 .banner-text {
     color: #F9FAF8;
     font-size: 15px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 8px 100px;
+    padding: 8px;
+}
+.header-links {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    margin: 8px;
+}
+.advert {
+    margin: 8px 100px;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+.advert-image {
+    background-color: #CBCBCBCB;
+    flex: 1;
+    min-width: 200px;
+    max-width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.advert-image-text {
+    text-align: center;
+}
+.card-image {
+    border-radius: 15px;
+    border-color: #3882F6;
+    border-style: solid;
+    height: 100px;
+    width: 100px;
+    margin: 16px;
+}
+.card-text {
+    text-wrap: wrap;
+    text-align: center;
+    width: 100px;
+}
+.card {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 100px;
+
+}
+.quote {
+    padding: 50px 100px;
+}
+.banner {
+    width: 750px;
+    padding: 50px 70px;
+    border-radius: 8px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.banner-signup {
+    padding: 8px 32px;
+}
+.footer {
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
